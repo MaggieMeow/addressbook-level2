@@ -33,6 +33,9 @@ public class CommandResult {
         return Optional.ofNullable(relevantPersons);
     }
     
+    /**
+     * Returns feedbackTousers to command result.
+     */
     public String getFeedbackToUser() {
     	return feedbackToUser;
     }
